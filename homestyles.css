@@ -64,6 +64,12 @@ color: white;
 }
 
 a:hover {
+<<<<<<< Updated upstream
     font-size: x-large;
     color: darkgray;
   }
+=======
+      font-size: x-large;
+      color: darkgray;
+    }
+>>>>>>> Stashed changes
