@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+li{
+  list-style: none;
+  padding:1em;
+  text-decoration:none;
+  color: black;
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+  padding:4em;
+  padding-right:7em;
+  box-sizing: border-box;
+  text-decoration:none;
+}
+.Caption {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-family: HelveticaNeue-Medium, "HelveticaNeueMedium", Helvetica, Arial, sans-serif;
+}
+.link{
+  text-decoration:none;
+  color: white;
+}
+body{
+  background-color: #2a2826;
+}
+.menu{
+  text-align: right;
+}
+.logo-container {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  font-size: 25px;
+}
+
+a:hover {
+    font-size: x-large;
+    color: darkgray;
+}
+
+#commission{
+    position: fixed;
+    left: 12%;
+    top: 10%;
+    width: 50%;
+}
+form{
+    max-width: 700px;
+    width: 90%;
+    background: rgb(105, 55, 55);
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+form > h1{
+    margin:0;
+    text-align: left;
+    font-size: 40px;
+}
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border:none;
+    border-bottom: 1px solid #b80c0c00;
+}
+
+input[type="text"]:focus,textarea:focus{
+    border-bottom: 1px solid #c72858;
+    border-width: 3px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background: #882341;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, #882341, #c72858);
+    color: rgb(228, 228, 228);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
