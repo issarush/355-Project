@@ -26,6 +26,9 @@ ul {
   text-decoration:none;
   color: white;
 }
+.menu{
+  text-align: right;
+}
 body {
   background-image: url("homegif.gif");
   background-color: lightgrey;
@@ -45,9 +48,7 @@ body::before {
   backdrop-filter: blur(3px);
   z-index: -1;
 }
-.menu{
-  text-align: right;
-}
+
 
 .logo-container {
   position: absolute;
@@ -64,12 +65,6 @@ color: white;
 }
 
 a:hover {
-<<<<<<< Updated upstream
     font-size: x-large;
     color: darkgray;
   }
-=======
-      font-size: x-large;
-      color: darkgray;
-    }
->>>>>>> Stashed changes

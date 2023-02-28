@@ -10,19 +10,19 @@ li{
     text-decoration:none;
     color: black;
     margin-top: 5px;
-    
+
   }
 
-  ul {
-    list-style: none;
-    padding:4em;
-    padding-right:7em;
-    box-sizing: border-box;
-    text-decoration:none;
-  }
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: -55px;
+  margin-right: -20px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
   .Caption {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
     font-family: HelveticaNeue-Medium, "HelveticaNeueMedium", Helvetica, Arial, sans-serif;
@@ -32,10 +32,12 @@ li{
     text-decoration:none;
     color: white;
   }
-  
+
 .menu {
-    text-align: right;
-  }
+  text-align: right;
+  padding: 1em 7em 0 0;
+}
+
   h1{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -60,7 +62,7 @@ body {
 .heading {
   font-size: 60px;
   color: #FDFD96;
-  
+
 }
 
 .heading span {
@@ -71,10 +73,10 @@ body {
 .profiles {
   display: flex;
   justify-content: center;
-  margin: 30px 80px;
-  margin-left: 5px;
-  margin-top: -250px;
-  
+  margin: auto;
+  margin-left: auto;
+  margin-top: auto;
+
 }
 
 .profile {
@@ -103,7 +105,7 @@ body {
    display: block;
    margin-top: 1em;
    font-family: 'Courier New', Courier, monospace;
-   
+
   }
 
 .user-name {
@@ -140,10 +142,9 @@ body {
 
 }
 
-  a:hover {
+a:hover {
     font-size: x-large;
     color: darkgray;
   }
 
 
-  
