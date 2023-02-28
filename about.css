@@ -49,8 +49,10 @@ ul {
     text-shadow: 2px 2px 4px #333;;
   }
 body {
-  background-color: #2A2826;
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(204, 192, 179);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -60,6 +62,7 @@ body {
 }
 
 .heading {
+  font-family: typeface-body, serif;
   font-size: 60px;
   color: #FDFD96;
 
@@ -99,6 +102,7 @@ body {
   filter: grayscale(0);
 }
 .profile:hover .user-name{
+
     color: yellow;
   }
   .profile:hover .info{
@@ -109,6 +113,7 @@ body {
   }
 
 .user-name {
+  font-family: typeface-body, serif;
   margin-top: 30px;
   font-size: 30px;
 }
