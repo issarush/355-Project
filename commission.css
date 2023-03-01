@@ -131,3 +131,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: darkgrey;
 }
+body {;
+  font-family: Arial, sans-serif;
+  background-image: url(about_duo.jpg);
+  background-position: bottom;
+  backdrop-filter: blur(1.5px);
+}
+
+.blur{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
