@@ -1,1 +1,3 @@
-Project 1: Members Name
+Project 1: 
+
+Prototype website for Dream Silverware 
